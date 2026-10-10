@@ -59,6 +59,16 @@
   .hint { font-size: 12px; color: var(--ink-soft); }
   .it, .en { overflow-wrap: anywhere; }
   .notice { font-size: 11px; color: var(--ink-soft); }
+  /* Wide screens: the notes become a full-height column on the right, room for many flags. */
+  @media (min-width: 1100px) {
+    :root { --notes: clamp(320px, 28vw, 440px); }
+    header, main { margin-right: var(--notes); }
+    main { padding-bottom: 32px; }
+    footer { left: auto; top: 0; width: var(--notes); border-top: 0; border-left: 1.5px solid var(--line); padding: 16px; }
+    footer .inner { height: 100%; display: flex; flex-direction: column; }
+    footer textarea { flex: 1; height: auto; resize: none; font-size: 13px; }
+    footer .side { flex: none; }
+  }
   @media (max-width: 640px) {
     .row { grid-template-columns: minmax(0, 1fr); } .num { display: none; }
     .actions { flex-direction: row; flex-wrap: wrap; }
