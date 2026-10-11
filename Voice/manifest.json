@@ -26,10 +26,10 @@
               "textHash": "e48b0b6e04e30f94a8c1abb08452ef1b205d341e9e04637ead3ff3f95a96cad1"
             },
             "afternoon-lunch": {
-              "duration": 3.855,
-              "mouth": "0201322010111122311120000000000003311121000000000",
-              "renderHash": "b1c85a077fb80361874de1b499c2711e496b6841ef75ed5b955e0387195e5db7",
-              "textHash": "34a879d2850e90894ba3ca22e30fe1d85a1e373100c8b17fe4e2bcadb33a9bf6"
+              "duration": 2.781,
+              "mouth": "13221223311110000000000121210100000",
+              "renderHash": "ec1ba2af57df181249bfbc4a7cd1b2c759cff086cb4da1d7e0f597ee12f949a5",
+              "textHash": "4a015720014fb57d5d86fb5dccd333633c770e583123cc9d4d6bdbcdd51da595"
             },
             "afternoon-our-side": {
               "duration": 4.64,
@@ -80,10 +80,10 @@
               "textHash": "20a5cfd1d58ac9abe24a63740640ad2bba5d4063b97a77e0b7e19ceb773f8c90"
             },
             "back-chair": {
-              "duration": 4.988,
-              "mouth": "122100001313232011000000000312211111110100000000002222111000000",
-              "renderHash": "eb5062e7ed037b8699fc51616adaaa77bab4b36cfa4227f13208de8afe818f13",
-              "textHash": "113b579fb328372ad1c76908f918614372a501a57feb02ca96a42a517c2a7ee2"
+              "duration": 4.622,
+              "mouth": "1210002300100000000013121011111100000000000021011011000000",
+              "renderHash": "6289f9910e4affa9e3b2e486b6bfc91b970a8860e91d0293205d55ce246fa20b",
+              "textHash": "7044d610310e07951489325e13574e6ff60155bc3ddb05cf6b3e960f7cdff620"
             },
             "back-cloud-waved": {
               "duration": 4.11,
@@ -296,10 +296,10 @@
               "textHash": "bedc87747b0927b1390476b3137ebc722b1695d2c53299b3ae82102b41908ffc"
             },
             "dark-cozy": {
-              "duration": 4.024,
-              "mouth": "122100000011121111110000000000111321221023121100000",
-              "renderHash": "26e60630b27c81c000f6caaa0aea503f0480316fdea47be279ce5c8e6c8a96dc",
-              "textHash": "8e8d5db3e02968baeae8b05a20cd9c8ce68dcc23f90031f17f09b48cfa5c548b"
+              "duration": 3.627,
+              "mouth": "2332100011212212122100000000133211312312111000",
+              "renderHash": "2f78d9f547ac971f0f7e5b614d1e074320344009b6959b2dbb31a2096ba4e6e6",
+              "textHash": "d232cfe2bec68d056352f49c8ed52fd8f13931fd6098044841c900fdd364206a"
             },
             "dark-evening": {
               "duration": 4.306,
@@ -362,10 +362,10 @@
               "textHash": "2ed4a606ba219370cf38afc5944d5bda30314106ccb75b912285be689f9699b0"
             },
             "evening-golden": {
-              "duration": 3.406,
-              "mouth": "3321111000000000001322110000000000000000000",
-              "renderHash": "d6370db217db2c8116e73e871b58f03993e2ab31f072a237806e5da6a4fb6424",
-              "textHash": "280ebbdbc02493f0096e5f9280b7e5a3c2ef5147f82fcde8238ccf76d2fa01e1"
+              "duration": 3.347,
+              "mouth": "023321020000000002310000000013322210000000",
+              "renderHash": "4bf871e34be0c6d1759b19f74b5dbccb0edb2347cdded3518ebd01368bc38831",
+              "textHash": "c3e480a0a5b814e3f02a242cc235aef9d39272309f3dc3e6fdc1b5ece1d476de"
             },
             "evening-see-you": {
               "duration": 3.775,
@@ -638,10 +638,10 @@
               "textHash": "1eb3d20787ada66c4ce578e88302542235667b981dc15e89c7419c9143e09369"
             },
             "general-quiet-stretch": {
-              "duration": 2.224,
-              "mouth": "1121302233201100111110000000",
-              "renderHash": "91731c5406b05b0a44649d6e507d1af3386c02f9d51f558d9ddb67fb3311d7bd",
-              "textHash": "62bd75e589f97bb5c813043987670b3ab1ac306973a2e122be75a19f4f6fbd7f"
+              "duration": 2.094,
+              "mouth": "023123232232322221111210000",
+              "renderHash": "1b18f0c7c917674f18d0f168fb3599f12afb16935964a339d3e2efc49ca2d106",
+              "textHash": "bd679902280cf66778cc9686cde0a00f82ad8fc61c323bc84ad8eef9d23748cb"
             },
             "general-rainbow": {
               "duration": 3.504,
@@ -668,10 +668,10 @@
               "textHash": "7f316125710421898e0d03c8272c72d22068a67673cbc442354a7b83d0d14aa1"
             },
             "general-shape": {
-              "duration": 1.981,
-              "mouth": "3301110002322122101100000",
-              "renderHash": "12931d75ad64585664cd4be289fd8580745add8cd1ea749139ae957968fecec1",
-              "textHash": "cda1b7ec43bd66fefec21df11b1a17d7231f2a0b2c3bb236f1dbba5a323aa8db"
+              "duration": 2.374,
+              "mouth": "032332322011003333321120110000",
+              "renderHash": "8fe410534674444ba68aaf71078cdb239e937b1218f11059930b85327f847779",
+              "textHash": "f29d2dca1d17716f50bdc21d14ef1f34da621829e75a818cc54374f205f6b7e9"
             },
             "general-sitting-sun": {
               "duration": 3.29,
@@ -998,10 +998,10 @@
               "textHash": "e41d92f52fd1ce12fbbbfd8f62a159ccbb103ebe02f4eff7e00e7fa607233b95"
             },
             "poke-checking": {
-              "duration": 3.803,
-              "mouth": "133210000002313221110000001210021111111110000000",
-              "renderHash": "3694235d0a0853763e547fdd2511045f06ad2b78abe4dcb460955bddc4039f5b",
-              "textHash": "8dc422a16a31992c167f4f2dd4378b19ea9f63f00c911217e8660be68ccc99e4"
+              "duration": 3.381,
+              "mouth": "1332000000022322030110210002210211221100000",
+              "renderHash": "50dabc7fcabee1cad0db6541a7789dc601fcc70f5f2df3f627a57b9b44857905",
+              "textHash": "a48a0db4795385e597fea4e140fbda22eff5560bbd4e28c69803945945d40575"
             },
             "poke-cloud": {
               "duration": 4.007,
@@ -1094,10 +1094,10 @@
               "textHash": "0e9d6edcca25dee1d9d4f8293e3df69dbd16867984d90ed464c989e735e490b8"
             },
             "shh-both-nice": {
-              "duration": 4.384,
-              "mouth": "0123332232111000110211110000000000231302022321111210100",
-              "renderHash": "f8f8c4425c4e682694959cf109998711f2ee3f49429003d4221c5f9f76e5e19a",
-              "textHash": "efc45473be086c3ffe7576cf6e015bf0603735e8c0c7e46e52b85465fd75f1a5"
+              "duration": 3.677,
+              "mouth": "0131000000000000000000002331132221010101100000",
+              "renderHash": "7ac2af16ad3e650d87dad89bd26eadd65e80b54b80d6a63c09bdecc9bd3e3772",
+              "textHash": "da426edae9d966e16d4db653735b5bb17d4048f1c055ac1e9fa99551f8254ca3"
             },
             "shh-dreamed": {
               "duration": 3.29,
@@ -1148,10 +1148,10 @@
               "textHash": "55c168d7e393635847674e5ecb705d705677d6cf1d9e890b81a2b197b9902b77"
             },
             "unplugged-bold": {
-              "duration": 2.578,
-              "mouth": "012212023101100000003230011000000",
-              "renderHash": "9963d562997cfe58c8095cac2057483c9041f89df53e8d6cd99e05edc5201397",
-              "textHash": "3d9b71a2de42825d46e5834150ef3ff945cd36022b9dc9df3bc5342586ef97a4"
+              "duration": 2.802,
+              "mouth": "012212033101110000000021032111000000",
+              "renderHash": "1f48ed6c1ad4d483c8501f2da5b4c7dfd86b712a54283b110e490410ba75e141",
+              "textHash": "3d37b7b0e789b7cb8f8206601a6dcc66bc21097ca6184e5f788ccc695fd9d1c4"
             },
             "unplugged-just-us": {
               "duration": 4.629,
@@ -1184,10 +1184,10 @@
               "textHash": "0de53c1a3713988d84d12993a5ea2d00d4cb5b2220abb99aa53353d743a71547"
             },
             "weekend-no-rush": {
-              "duration": 3.977,
-              "mouth": "33001101111100000000000002212000000000121110000000",
-              "renderHash": "2e48442af19b77fe999cb0182562ef811136e3ad63626fa8d9df5309b2d91f25",
-              "textHash": "2e3abecfa467bdea259e87b44009eb40c7d218c93ea3a01913cb5497c2a085ad"
+              "duration": 3.191,
+              "mouth": "2300110011320100000000000001000000000000",
+              "renderHash": "e501c575ab6e89b04cbdc8276ea3423525c870ebf5e421a80e7ea2b3e2b45669",
+              "textHash": "2c9801603dbcdf4e154533c5ba95647bca80429545309cb0a1e8b9d9a460388a"
             },
             "weekend-slower": {
               "duration": 3.764,
@@ -1231,10 +1231,10 @@
               "textHash": "e48b0b6e04e30f94a8c1abb08452ef1b205d341e9e04637ead3ff3f95a96cad1"
             },
             "afternoon-lunch": {
-              "duration": 3.672,
-              "mouth": "1210322102012122212221011000000132021201000000",
-              "renderHash": "6d70fdae27323a050c56e393345cc025f0d89304358359631efa3b62c867265f",
-              "textHash": "34a879d2850e90894ba3ca22e30fe1d85a1e373100c8b17fe4e2bcadb33a9bf6"
+              "duration": 2.804,
+              "mouth": "132201012031211100000000211120110000",
+              "renderHash": "c855b14acc0c71461570585410d40378043d41c4117927e69e1c77805d2f9c44",
+              "textHash": "4a015720014fb57d5d86fb5dccd333633c770e583123cc9d4d6bdbcdd51da595"
             },
             "afternoon-our-side": {
               "duration": 4.085,
@@ -1285,10 +1285,10 @@
               "textHash": "20a5cfd1d58ac9abe24a63740640ad2bba5d4063b97a77e0b7e19ceb773f8c90"
             },
             "back-chair": {
-              "duration": 4.555,
-              "mouth": "132000221222301200000000313213202221200000000022223210000",
-              "renderHash": "e1de6f164d545a558b1b5fff742378b290afa27b63fba7be590d3c99e8d9e620",
-              "textHash": "113b579fb328372ad1c76908f918614372a501a57feb02ca96a42a517c2a7ee2"
+              "duration": 4.083,
+              "mouth": "1320002101000000002021021212101000000000101101110000",
+              "renderHash": "31f72dd987309ed6327dd538c360ef052322d3c364e0df46567e6f172943d1c5",
+              "textHash": "7044d610310e07951489325e13574e6ff60155bc3ddb05cf6b3e960f7cdff620"
             },
             "back-cloud-waved": {
               "duration": 3.721,
@@ -1501,10 +1501,10 @@
               "textHash": "bedc87747b0927b1390476b3137ebc722b1695d2c53299b3ae82102b41908ffc"
             },
             "dark-cozy": {
-              "duration": 3.661,
-              "mouth": "2321000012312121000000000011022023302212110000",
-              "renderHash": "71e84f4f1ce0868ec26ae52050a0f058623f773771571c41b4f6d885bb1572f3",
-              "textHash": "8e8d5db3e02968baeae8b05a20cd9c8ce68dcc23f90031f17f09b48cfa5c548b"
+              "duration": 3.393,
+              "mouth": "2321000011312111000000000001020231121111000",
+              "renderHash": "9e54de3d6cb2e029a867c7f026d131d925b97b5ab166f266c92d1bdc6f0f5bc0",
+              "textHash": "d232cfe2bec68d056352f49c8ed52fd8f13931fd6098044841c900fdd364206a"
             },
             "dark-evening": {
               "duration": 3.841,
@@ -1567,10 +1567,10 @@
               "textHash": "2ed4a606ba219370cf38afc5944d5bda30314106ccb75b912285be689f9699b0"
             },
             "evening-golden": {
-              "duration": 3.044,
-              "mouth": "232102100000000012212110000000100000000",
-              "renderHash": "a59faa672f6b87fd1609b04943e468c8b22cfa92ebf6371fdbabd98e69d379aa",
-              "textHash": "280ebbdbc02493f0096e5f9280b7e5a3c2ef5147f82fcde8238ccf76d2fa01e1"
+              "duration": 3.145,
+              "mouth": "0233221200000000012000000012212210000000",
+              "renderHash": "698abec7c376fbeeb510e4c5a956c86542a596f7c9c99dd99d2dc77df8658f0a",
+              "textHash": "c3e480a0a5b814e3f02a242cc235aef9d39272309f3dc3e6fdc1b5ece1d476de"
             },
             "evening-see-you": {
               "duration": 3.39,
@@ -1843,10 +1843,10 @@
               "textHash": "1eb3d20787ada66c4ce578e88302542235667b981dc15e89c7419c9143e09369"
             },
             "general-quiet-stretch": {
-              "duration": 2.151,
-              "mouth": "120313332320120211111000000",
-              "renderHash": "779843de71e1f41df9934830d315a6d9190b9890e7c54125a0178f348434d6eb",
-              "textHash": "62bd75e589f97bb5c813043987670b3ab1ac306973a2e122be75a19f4f6fbd7f"
+              "duration": 2.047,
+              "mouth": "03213322032131111110000000",
+              "renderHash": "e6aa076d7b79b63456639c091d9b6d7475888421d62bf77716d216c57de49343",
+              "textHash": "bd679902280cf66778cc9686cde0a00f82ad8fc61c323bc84ad8eef9d23748cb"
             },
             "general-rainbow": {
               "duration": 3.145,
@@ -1873,10 +1873,10 @@
               "textHash": "7f316125710421898e0d03c8272c72d22068a67673cbc442354a7b83d0d14aa1"
             },
             "general-shape": {
-              "duration": 1.812,
-              "mouth": "23112101233123111210000",
-              "renderHash": "357a5fb0251f27b0eede082c2051b3b77ffd5a65394833616899ba833e5d043e",
-              "textHash": "cda1b7ec43bd66fefec21df11b1a17d7231f2a0b2c3bb236f1dbba5a323aa8db"
+              "duration": 2.351,
+              "mouth": "030313222121000231131010110000",
+              "renderHash": "aab7c5ce2aeb27694a211606d227d95186454ccbb561cc0ca3416fc9d730f163",
+              "textHash": "f29d2dca1d17716f50bdc21d14ef1f34da621829e75a818cc54374f205f6b7e9"
             },
             "general-sitting-sun": {
               "duration": 3.089,
@@ -2203,10 +2203,10 @@
               "textHash": "e41d92f52fd1ce12fbbbfd8f62a159ccbb103ebe02f4eff7e00e7fa607233b95"
             },
             "poke-checking": {
-              "duration": 3.453,
-              "mouth": "03310000003131232201000011102101212111100000",
-              "renderHash": "b5ff9bf87ca5d4b3fee52023b51647349b9ba4ee3f121fe96a87d558a888aa0f",
-              "textHash": "8dc422a16a31992c167f4f2dd4378b19ea9f63f00c911217e8660be68ccc99e4"
+              "duration": 3.055,
+              "mouth": "033100001122132203112201210212111010000",
+              "renderHash": "b90eaef8ba05695bb6d9b33e8ebf60fe3771807e4b76981d9431543bceb77e50",
+              "textHash": "a48a0db4795385e597fea4e140fbda22eff5560bbd4e28c69803945945d40575"
             },
             "poke-cloud": {
               "duration": 3.521,
@@ -2299,10 +2299,10 @@
               "textHash": "0e9d6edcca25dee1d9d4f8293e3df69dbd16867984d90ed464c989e735e490b8"
             },
             "shh-both-nice": {
-              "duration": 4.193,
-              "mouth": "00223202320111101111211100000000013121303222110110000",
-              "renderHash": "3d8d747dcda245cfac5ddc8b2796e2fcecbb6db46e89dcfe58d846dc7f7a89cb",
-              "textHash": "efc45473be086c3ffe7576cf6e015bf0603735e8c0c7e46e52b85465fd75f1a5"
+              "duration": 3.469,
+              "mouth": "13321100010000000000002221231332212112220000",
+              "renderHash": "ea466090526bfd01b9a6d22783d6ebf366a4925d7cccafa07eb69972a057157e",
+              "textHash": "da426edae9d966e16d4db653735b5bb17d4048f1c055ac1e9fa99551f8254ca3"
             },
             "shh-dreamed": {
               "duration": 3.025,
@@ -2353,10 +2353,10 @@
               "textHash": "55c168d7e393635847674e5ecb705d705677d6cf1d9e890b81a2b197b9902b77"
             },
             "unplugged-bold": {
-              "duration": 2.402,
-              "mouth": "0221303321121000000322012100000",
-              "renderHash": "88c2a6b5a45efb20a2331c4236b2b16cf1de7a9d66a3a4c429235bdd78942af2",
-              "textHash": "3d9b71a2de42825d46e5834150ef3ff945cd36022b9dc9df3bc5342586ef97a4"
+              "duration": 2.519,
+              "mouth": "02232313311221000001201211100000",
+              "renderHash": "dc4f64db8c53049ffa7adf92899f4169089313ce8b1f855133ff590c1d5d5127",
+              "textHash": "3d37b7b0e789b7cb8f8206601a6dcc66bc21097ca6184e5f788ccc695fd9d1c4"
             },
             "unplugged-just-us": {
               "duration": 4.136,
@@ -2389,10 +2389,10 @@
               "textHash": "0de53c1a3713988d84d12993a5ea2d00d4cb5b2220abb99aa53353d743a71547"
             },
             "weekend-no-rush": {
-              "duration": 3.716,
-              "mouth": "33112200031100000000000023131000000003120000000",
-              "renderHash": "f0cb77e34b3c2f69d45eb3e3a7df6ef748b0bdf22f37862c882774b604f241e2",
-              "textHash": "2e3abecfa467bdea259e87b44009eb40c7d218c93ea3a01913cb5497c2a085ad"
+              "duration": 2.854,
+              "mouth": "230110012320100000000000011000000000",
+              "renderHash": "cc20b79901eaa8c1b2ab92173fc5ee5105e0d21c88ca64490fc5bfe105c44669",
+              "textHash": "2c9801603dbcdf4e154533c5ba95647bca80429545309cb0a1e8b9d9a460388a"
             },
             "weekend-slower": {
               "duration": 3.583,
