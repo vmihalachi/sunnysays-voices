@@ -69,6 +69,29 @@
 <small>Shared with friends who help review Sunny&#x27;s voice. The recordings and texts are © sunnysays, all rights reserved. Please don&#x27;t reuse, redistribute or train on them.</small>
 </main>
 <script>
+// The site's translations: the first of the browser's languages it has, before English.
+const LOCALES = {"it": {"title": "La voce di Sunny: la revisione", "main": "<img src=\"icon.png\" alt=\"\" width=\"72\" height=\"72\"><h1>La voce di Sunny: la revisione<\/h1>\n<p class=\"lede\">Grazie di prestarci orecchio. Queste sono le frasi che Sunny dice ad alta voce: controlli che ogni registrazione suoni bene e che il testo sia scritto bene.<\/p>\n<ol>\n  <li><span><b>Scegli una lingua<\/b> che conosci bene.<\/span><\/li>\n  <li><span><b>Ascolta tutto<\/b> e segnala ciò che non suona bene o si legge male. Si salva man mano, così puoi fermarti e tornare quando vuoi.<\/span><\/li>\n  <li><span><b>Invia le note<\/b> a chi ti ha condiviso questa pagina.<\/span><\/li>\n<\/ol>\n<h2>Lingue<\/h2>\n<ul><li><a href=\"review/it.html\"><span class=\"text\"><b>Italiano<\/b><span class=\"meta\">196 frasi · lette da Felice e Sunny (it, female) · circa 13 min per voce<\/span><span class=\"you\" data-lang=\"it\" data-lines=\"196\"><\/span><\/span><span class=\"go\">Inizia<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m6 3.5 4.5 4.5-4.5 4.5\"/><\/svg><\/span><\/a><\/li><\/ul>\n<small>Condiviso con gli amici che aiutano a rivedere la voce di Sunny. Registrazioni e testi sono © sunnysays, tutti i diritti riservati. Per favore non riutilizzarli, non ridistribuirli e non usarli per addestrare modelli.<\/small>", "ui": {"You've heard every line": "Hai ascoltato tutte le frasi", "You've heard {heard} of {lines}": "Hai ascoltato {heard} di {lines}", ", {n} with notes": {"one": ", {n} con una nota", "other": ", {n} con note"}, "Continue": "Continua"}}};
+const locale = (() => {
+  for (const l of navigator.languages || [navigator.language]) {
+    const base = l.split("-")[0];
+    if (l in LOCALES) return l;
+    if (base in LOCALES) return base;
+    if (base === "en") return null;
+  }
+  return null;
+})();
+const UI = locale ? LOCALES[locale].ui : {};
+if (locale) {
+  document.documentElement.lang = locale;
+  document.title = LOCALES[locale].title;
+  document.querySelector("main").innerHTML = LOCALES[locale].main;
+}
+const rules = new Intl.PluralRules(locale || "en");
+const t = (s, values = {}) => {
+  let text = UI[s] ?? s;
+  if (typeof text === "object") text = text[rules.select(values.n)] ?? text.other;
+  return text.replace(/\{(\w+)\}/g, (m, k) => k in values ? values[k] : m);
+};
 // The visitor's progress from the review pages' own storage: it never leaves this browser.
 for (const you of document.querySelectorAll(".you")) {
   let state = {};
@@ -77,9 +100,9 @@ for (const you of document.querySelectorAll(".you")) {
   const notes = Object.values(state).filter(e => e && (e.text || e.note || Object.values(e.retake || {}).some(Boolean))).length;
   if (!heard && !notes) continue;
   const lines = +you.dataset.lines;
-  you.textContent = heard >= lines ? `You've heard every line` + (notes ? `, ${notes} with notes` : "")
-    : `You've heard ${heard} of ${lines}` + (notes ? `, ${notes} with notes` : "");
-  you.closest("a").querySelector(".go").firstChild.textContent = "Continue";
+  you.textContent = (heard >= lines ? t("You've heard every line") : t("You've heard {heard} of {lines}", { heard, lines }))
+    + (notes ? t(", {n} with notes", { n: notes }) : "");
+  you.closest("a").querySelector(".go").firstChild.textContent = t("Continue");
 }
 </script>
 </body>
